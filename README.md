@@ -29,6 +29,7 @@ A few more pieces of this stack — server, booking-contract generator, auto-fra
 ## Outside Avolo
 
 - **[streamdeck-claude](https://github.com/JulienCr/streamdeck-claude)** — Elgato plugin that surfaces live Claude Code session state on the deck. Useful when you've got three running in parallel.
+- **[Wolf Gang Paris](https://www.wolfgangparis.com/)** — I designed and built the full show-control stack for this immersive escape-game venue: lighting, sound, network, scene logic, player interactivity. The website is mine too — currently mid v2 rebuild on Next.js.
 
 ## Stack & playgrounds
 
