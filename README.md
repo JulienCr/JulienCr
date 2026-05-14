@@ -19,7 +19,7 @@ Open-notebook mode: many projects in parallel, few clean v1.0s, the occasional f
 
 [@la_scene_avolo](https://www.twitch.tv/la_scene_avolo) is a French impro channel. Off-the-shelf tools didn't cover what I needed as actor-and-engineer, so I ended up writing my own:
 
-- **[avolo-cam](https://github.com/JulienCr/avolo-cam)** — Multi-iPhone → OBS. Three modes (NDI / Flash / SRT), GPU zero-copy decode, Tauri controller. The fastest camera I've managed to build.
+- **[avolo-cam](https://github.com/JulienCr/avolo-cam)** — Multi-iPhone → OBS over a homemade, open-source video transport. No NDI licence, lowest latency I could pull off. NDI and SRT modes as fallback, GPU zero-copy decode, Tauri controller.
 - **[obs-live-suite](https://github.com/JulienCr/obs-live-suite)** — Control room: real-time overlays, interactive quiz, dockview dashboard, presenter comms. A 26-tool MCP server to drive it from Claude.
 - **[xtouch-gw](https://github.com/JulienCr/xtouch-gw)** — Behringer X-Touch gateway for Voicemeeter / QLC+ / OBS, with motorised faders. TS v2 in production, Rust port underway to drop under 20 ms end-to-end.
 - **[rythmo-impro](https://github.com/JulienCr/rythmo-impro)** — Live dubbing reader (rythmo) for impro sessions. WhisperX transcription + pyannote diarisation in Docker, Next.js frontend.
